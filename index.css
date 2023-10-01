@@ -1,0 +1,162 @@
+/* **************************************** media query ***************************************************************************** */
+/* body{
+    width: 100%;
+  } */
+  img{
+      height: 100%;
+      width: 100%;
+  }
+
+
+/* *******************************************Banner Section 1****************************************************************** */
+
+.img-div img{
+    height: 60%;
+    /* width: 100%; */
+}
+
+
+.logo-div img{
+ margin: 10px 0px 0px 30px
+}
+.logo-div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+}
+
+.top-nav-main {
+    overflow-x: auto;
+}
+
+.top-nav-list {
+    list-style: none;
+    display: flex;
+    width: 30%;
+    position: absolute;
+    right: 8px;
+    top: 60px;
+    color: white;
+    margin: 8px;
+}
+
+.prop-text{
+    position: absolute;
+    top: 260px;
+    color: white;
+    font-family: unset;
+    left: 200px;
+}
+
+.nav-list {
+    margin: 0px 10px;
+    cursor: pointer;
+    height: 32px;
+
+}
+
+.top-nav-list li:hover {
+ 
+color: brown;
+text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 567.7px) {
+    .img-div img{
+        width: 100%;
+    }
+}
+
+
+/* *****************************************section2 ***************************************************************** */
+.tab-titles{
+    display: flex;
+    margin-left: 40px;
+}
+.tab-link{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.tab-content ul li{
+ list-style: none;
+ margin: 10px 0px;
+}
+.tab-content ul li span{
+ color: brown;
+ font-size: 14px;
+ font-weight: 500;
+}
+.neo-content {
+    background-color: black;
+    color: white;
+}
+.tab-content{
+    display: none;
+}
+ .tab-content.active-tab{
+    display: block;
+}
+
+
+
+
+/* *********************************************section 3*********************************************************************** */
+.card-img-top-div{
+    height: 60px;
+    width: 100px;
+}
+.div-services{
+    background-color: black;
+    color: white;
+}
+.btn-service{
+    border-radius: 4px;
+    background-color: black;
+    border: 2px solid brown;
+    color: white;
+    width: 120px;
+    cursor: pointer;
+}
+.btn-div-service{
+    margin: auto;
+}
+
+/* ************************************************* SECTION 4 *********************************************************/
+.Contact-div{
+    background-color: black;
+    color: white;
+}
+.text-div input{
+    background-color: #8080809e;
+    width: 500px;
+    border-radius: 2px;
+    color: #ffffff8c;
+    height: 50px;
+
+}
+.text-div-msg input{
+    background-color: #8080809e;
+    width: 500px;
+    height: 150px;
+    border-radius: 2px;
+    color: white;
+}
+.submit-btn{
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+    width: 130px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+/* .input-div{
+    background-color: grey;
+    color: white;
+}  */
